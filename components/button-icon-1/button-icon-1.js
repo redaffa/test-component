@@ -19,7 +19,7 @@ Component({
   methods: {
     handleIcon() {
       this.setData({
-        handleIcon: "/images/" + this.props.iconImage + ".svg"
+        handleIcon: "this.props.iconImage"
       })
      },
 
